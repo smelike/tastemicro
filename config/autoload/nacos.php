@@ -13,11 +13,11 @@ return [
     // nacos server url like https://nacos.hyperf.io, Priority is higher than host:port
     // 'url' => '',
     // The nacos host info
-    'host' => '127.0.0.1',
+    'host' => '172.27.110.228',
     'port' => 8848,
     // The nacos account info
-    'username' => null,
-    'password' => null,
+    'username' => 'nacos',
+    'password' => 'nacos',
     'guzzle' => [
         'config' => null,
     ],
